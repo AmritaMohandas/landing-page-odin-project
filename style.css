@@ -144,12 +144,13 @@ button {
 
 .signup-section {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;             /* allow items to wrap */
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;     /* center items horizontally */
+    gap: 100px;                   /* spacing between items */
     background-color: #3882F6;
     margin: 75px auto;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 25px;
     width: 90%;
     max-width: 750px;
